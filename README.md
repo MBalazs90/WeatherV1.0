@@ -29,6 +29,7 @@ which fits to your postgresql server)
 
 - SELECT weather(lat,long);
 - function gets the temperature in Celsius originally, so if you want it in Kelvin you have to remove
+(- 273.15)
 
 # In the background
 
