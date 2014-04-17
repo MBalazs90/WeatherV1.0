@@ -18,7 +18,7 @@ which fits to your postgresql server)
 - chmod a+x ./CREATE_FUNC.sh
 - ./CREATE_FUNC.sh
 
-# Install weatherV1.0 manually
+# Install WeatherV1.0 manually
 
 - Load the weather.sql file into your database
 - \i weather.sql
