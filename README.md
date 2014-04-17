@@ -10,20 +10,18 @@ Weather information function for PostGIS using plpythonu
 which fits to your postgresql server)
 - Activate your extension in Postgres: createlang plpythonu -U postgres
 
-# Install WeatherV1.0
+# Install WeatherV1.0 on Linux distributions
 
 - git clone https://github.com/MBalazs90/WeatherV1.0.git
 - edit the CREATE_FUNC.sh file with your own data
-
-- export PGPORT=5432
-- export PGHOST=your_host_address
-- export PGUSER=your_username
-- export DB=your_database
-- export PGBIN=path_to_psql
-
 - to find psql run locate command. almost every case it is located in /usr/bin/psql
 - chmod a+x ./CREATE_FUNC.sh
 - ./CREATE_FUNC.sh
+
+# Install weatherV1.0 manually
+
+- Load the weather.sql file into your database
+- \i weather.sql
 
 # Use
 
