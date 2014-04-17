@@ -31,4 +31,4 @@ which fits to your postgresql server)
 
 # In the background
 
-- program uses the OpenWeatherMap free forecast data with the newest API 2.5.
+- program uses OpenWeatherMap free weather forecast data with the newest API 2.5.
