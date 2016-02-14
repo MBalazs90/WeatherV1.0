@@ -1,4 +1,4 @@
-WeatherV1.0
+WeatherV1.1
 ===========
 
 Weather information function for PostGIS using plpythonu
