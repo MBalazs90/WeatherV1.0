@@ -10,7 +10,7 @@ Weather information function for PostGIS using plpythonu
 of plpython which is suitable for you)
 - Activate your extension in Postgres: createlang plpythonu -U postgres
 
-# Install WeatherV1.0
+# Install WeatherV1.1
 
 - Load the weather.sql file into your database
 - \i weather.sql
